@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import site.muzhi.hero.core.api.Result;
 import site.muzhi.hero.core.api.ResultFactory;
 import site.muzhi.hero.core.entity.HeroEntity;
-import site.muzhi.hero.web.remote.service.HeroInfoService;
+import site.muzhi.hero.web.remote.HeroInfoService;
 
 /**
  * @author lichuang

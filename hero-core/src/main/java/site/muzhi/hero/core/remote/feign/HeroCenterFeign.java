@@ -1,4 +1,4 @@
-package site.muzhi.hero.web.remote.feign;
+package site.muzhi.hero.core.remote.feign;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,4 +1,4 @@
-package site.muzhi.hero.web.remote.service;
+package site.muzhi.hero.web.remote;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

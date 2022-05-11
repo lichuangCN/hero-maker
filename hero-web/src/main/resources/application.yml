@@ -3,6 +3,19 @@ server:
 spring:
   application:
     name: hero-maker-web
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  mvc:
+    static-path-pattern: /static/**
+  thymeleaf:
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
   cloud:
     nacos:
       discovery:

@@ -3,6 +3,9 @@ server:
 spring:
   application:
     name: hero-maker-center
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
   main:
     allow-bean-definition-overriding: true
   cloud:

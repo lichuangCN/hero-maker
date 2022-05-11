@@ -1,5 +1,8 @@
 HELP.md
+*/target/
 hero-center/target/
+hero-core/target/
+hero-web/target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
