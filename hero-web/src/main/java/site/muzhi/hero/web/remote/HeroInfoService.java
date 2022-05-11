@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import site.muzhi.hero.core.api.Assert;
 import site.muzhi.hero.core.api.Result;
 import site.muzhi.hero.core.entity.HeroEntity;
-import site.muzhi.hero.web.remote.feign.HeroCenterFeign;
+import site.muzhi.hero.core.remote.feign.HeroCenterFeign;
 
 /**
  * @author lichuang
