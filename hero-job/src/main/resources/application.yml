@@ -1,0 +1,27 @@
+server:
+  port: 9301
+spring:
+  application:
+    name: hero-job
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+xxl:
+  job:
+    accessToken: ''
+    admin:
+      addresses: http://localhost:9949/xxl-job-admin
+    executor:
+      appname: hero-job-executor
+      ip: ''
+      port: 9351
+      logpath: /Users/lichuang/logs/xxl-job
+      logretentiondays: 30
+
+logging:
+  level:
+    site.muzhi.hero: debug
